@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+button {
+    cursor: pointer;
+}
+
+th,
+td,
+tr {
+    border: .5px solid #b4b4b4;
+}
+
+th {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: start;
+}
+
+th,
+td {
+    padding: 8px 18px;
+    text-align: center;
+}
+
+table {
+    width: 1350px;
+}
+
+td {
+    font-size: 14px;
+}
+
+
+
+.header_nav_link.active {
+    border-color: #00bcff;
+}
